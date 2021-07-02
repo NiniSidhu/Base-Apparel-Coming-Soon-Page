@@ -1,0 +1,41 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 1px solid black;
+}
+
+.left{
+    
+    background-image: url('../style/images/bg-pattern-desktop.svg');
+    padding-right:0;
+}
+
+.right{
+   padding-left: 0;
+   padding-right: 0;
+    
+}
+
+.logo{
+    position: absolute;
+
+}
+
+.we{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    color: hsl(0, 36%, 70%);
+    
+}
+
+.coming{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    color: black;
+    font-size: 50px;
+}
