@@ -5,7 +5,8 @@
 }
 
 .container{
-    border: 1px solid black;
+    
+    box-shadow: 1px 2px  grey;
 }
 
 .left{
@@ -21,16 +22,19 @@
 }
 
 .logo{
-    position: absolute;
-
+    position: relative;
+    left: 220px;
+    top: 40px;
 }
 
 .we{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 40px;
-    font-weight: 300;
+    font-weight: bolder;
     color: hsl(0, 36%, 70%);
-    
+    margin-top: 0px;
+    padding-bottom: 0px;
+
 }
 
 .coming{
@@ -38,4 +42,19 @@
     font-weight: 600;
     color: black;
     font-size: 50px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+
+.para{
+    font-family: 'Josefin Sans', sans-serif;
+    color: hsl(0, 36%, 70%);
+    font-weight: bolder;
+    
+}
+
+.text{
+    position: relative;
+    left: 220px; 
+    top: 120px;
 }
